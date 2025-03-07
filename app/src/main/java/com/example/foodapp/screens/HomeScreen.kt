@@ -24,6 +24,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.foodapp.components.TabBar
 import com.example.foodapp.ui.theme.FoodAppTheme
 import com.example.foodapp.utils.Logout
 
@@ -38,14 +39,7 @@ fun HomeScreen(innerPadding: PaddingValues) {
             .padding(5.dp)
     ){
 
-        Row() {
-            Image(
-                imageVector = Logout,
-                contentDescription = null
-            )
-
-
-        }
+        TabBar()
 
         Spacer(
             modifier = Modifier.height(10.dp)
