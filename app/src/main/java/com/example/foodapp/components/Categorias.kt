@@ -69,7 +69,7 @@ fun Categorias(MCategoria: MCategorias) {
 
 @Preview
 @Composable
-fun NewsCardPreview(){
+fun CategoriaPreview(){
     FoodAppTheme {
         Categorias(
             MCategoria = newsListCategorias[0]
